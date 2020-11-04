@@ -1,7 +1,7 @@
 :root {
   --primary-color: #424242;
   --secondary-color: #505050;
-  --overlay-color: rgba(0, 0, 0, 0.5);
+  --overlay-color: rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -137,7 +137,46 @@ img {
   margin-top: 2.5rem;
 }
 
+/* Section-C */
+.section-c .gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
 
+.section-c .gallery a:first-child {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+
+.section-c .gallery a:nth-child(2) {
+  grid-row: 1/3;
+  grid-column: 5/7;
+}
+
+.section-c .gallery a:nth-child(3) {
+  grid-row: 1/3;
+  grid-column: 3/5;
+}
+
+.section-c .gallery a:nth-child(4) {
+  grid-row: 3/4;
+  grid-column: 3/5;
+}
+
+.section-c .gallery a:nth-child(5) {
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+
+.section-c .gallery a:nth-child(6) {
+  grid-row: 3/4;
+  grid-column: 5/7;
+}
+
+.section-c .gallery img, .section-c .gallery a {
+  width: 100%;
+  height: 100%;
+}
 
 /* Utilities */
 .btn {
