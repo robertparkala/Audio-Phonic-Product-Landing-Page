@@ -291,7 +291,6 @@ img {
 }
 
 /* Media Queries */
-
 @media (max-width: 700px) {
   .section-a .container {
     grid-template-columns: 1fr;
@@ -316,7 +315,7 @@ img {
     font-size: 3.5rem;
     margin-top: 2.5rem;
   }
-  
+
   .section-c .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
