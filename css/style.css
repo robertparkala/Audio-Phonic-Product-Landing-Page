@@ -347,5 +347,15 @@ img {
     font-size: 3.1rem;
     margin-top: 2.5rem;
   }
+
+  .section-footer .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .section-footer div:nth-child(2),
+  .section-footer div:nth-child(3) {
+    display: none;
+  }
 }
 
