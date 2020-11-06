@@ -338,7 +338,7 @@ img {
 /* Mobile */
 @media(max-width: 500px) {
   .navbar .container h1 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     align-items: center;
     justify-content: center;
   }
