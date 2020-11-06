@@ -352,5 +352,10 @@ img {
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+  .section-footer div:nth-child(2),
+  .section-footer div:nth-child(3) {
+    display: none;
+  }
 }
 
