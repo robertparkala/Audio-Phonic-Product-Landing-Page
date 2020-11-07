@@ -353,7 +353,7 @@ img {
     display: none;
   }
 
-  .email{
+  .subscribe-form{
     display: flex;
     flex-direction: column;
   }
