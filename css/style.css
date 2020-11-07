@@ -359,8 +359,8 @@ img {
   }
 
   .email-form .form-control-wrap{
-    position: relative;
-    display: block;
+    float: left;
+    clear: left;
   }
 }
 
