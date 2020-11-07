@@ -329,7 +329,8 @@ img {
     text-align: center;
   }
 
-  .section-footer div:nth-child(3) {
+  .section-footer div:nth-child(3),
+  .section-footer div:nth-child(2) {
     display: none;
   }
 }
@@ -352,7 +353,8 @@ img {
     text-align: center;
   }
 
-  .section-footer div:nth-child(3) {
+  .section-footer div:nth-child(3),
+  .section-footer div:nth-child(2) {
     display: none;
   }
 }
