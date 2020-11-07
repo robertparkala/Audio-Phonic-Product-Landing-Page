@@ -358,9 +358,9 @@ img {
     display: none;
   }
 
-  .email-form {
-    display: flex;
-    flex-direction: column;
+  .email-form .form-control-wrap{
+    position: relative;
+    display: block;
   }
 }
 
