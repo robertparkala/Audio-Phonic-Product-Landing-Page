@@ -359,8 +359,8 @@ img {
   }
 
   .email-form {
-    display: inline-block;
-    width: auto;
+    display: flex;
+    flex-direction: column;
   }
 }
 
