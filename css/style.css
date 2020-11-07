@@ -357,5 +357,10 @@ img {
   .section-footer div:nth-child(2) {
     display: none;
   }
+
+  .email-form {
+    display: inline-block;
+    width: auto;
+  }
 }
 
