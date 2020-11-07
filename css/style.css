@@ -348,11 +348,6 @@ img {
     margin-top: 2.5rem;
   }
 
-  .section-footer .container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
   .section-footer div:nth-child(3),
   .section-footer div:nth-child(2) {
     display: none;
