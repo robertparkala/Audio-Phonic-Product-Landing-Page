@@ -329,8 +329,7 @@ img {
     text-align: center;
   }
 
-  .section-footer div:nth-child(3),
-  .section-footer div:nth-child(2) {
+  .section-footer div:nth-child(3) {
     display: none;
   }
 }
@@ -348,14 +347,8 @@ img {
     margin-top: 2.5rem;
   }
 
-  .section-footer div:nth-child(3),
-  .section-footer div:nth-child(2) {
+  .section-footer div:nth-child(3) {
     display: none;
-  }
-
-  .email-form{
-    display: flex;
-    flex-direction: column;
   }
 }
 
