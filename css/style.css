@@ -353,7 +353,7 @@ img {
     display: none;
   }
 
-  .subscribe-form{
+  .subscribe{
     display: flex;
     flex-direction: column;
   }
