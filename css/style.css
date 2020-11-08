@@ -325,11 +325,13 @@ img {
   }
 
   .section-footer .container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 
-  .section-footer div:nth-child(3) {
+  .section-footer div:nth-child(3),
+  .section-footer div:nth-child(2) {
     display: none;
   }
 }
@@ -347,8 +349,15 @@ img {
     margin-top: 2.5rem;
   }
 
-  .section-footer div:nth-child(3) {
+  .section-footer div:nth-child(3),
+  .section-footer div:nth-child(2) {
     display: none;
+  }
+
+  .section-footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 
