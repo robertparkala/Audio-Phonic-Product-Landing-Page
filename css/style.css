@@ -210,14 +210,8 @@ img {
   color: #ccc;
 }
 
-.section-footer a > i {
-  color: #555;
-  margin-right: 0.5rem;
-}
-
-.section-footer a > i:hover {
-  color: #ccc;
-  margin-right: 0.5rem;
+.section-footer a:hover {
+  color: #fff;
 }
 
 /* Email Form */
